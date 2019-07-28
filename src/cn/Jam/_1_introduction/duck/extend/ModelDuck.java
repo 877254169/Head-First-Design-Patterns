@@ -1,6 +1,6 @@
 package cn.Jam._1_introduction.duck.extend;
 
-import cn.Jam._1_introduction.duck.Duck;
+import cn.Jam._1_introduction.duck.AbstractDuck;
 import cn.Jam._1_introduction.fly.impl.FlyNoWay;
 import cn.Jam._1_introduction.quack.impl.Quack;
 
@@ -10,7 +10,7 @@ import cn.Jam._1_introduction.quack.impl.Quack;
  * @author Jam
  * @date 2019/7/28
  */
-public class ModelDuck extends Duck {
+public class ModelDuck extends AbstractDuck {
 
     public ModelDuck() {
         flyBehavior = new FlyNoWay();

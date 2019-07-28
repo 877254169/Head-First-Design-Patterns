@@ -8,6 +8,9 @@ package cn.Jam._1_introduction.quack;
  */
 public interface QuackBehavior {
 
+    /**
+     * 嘎嘎叫方法
+     */
     void quack();
 
 }
